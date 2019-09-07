@@ -26,6 +26,7 @@ npm start
 
 **Build**
 
+**yarn**
 ```bash
 yarn install
 ```
