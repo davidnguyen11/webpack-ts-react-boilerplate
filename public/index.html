@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="<%= htmlWebpackPlugin.files.chunks.app.css[0] %>" />
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
-    <h1 class="center">Hello, world!</h1>
-    <h2 class="center">Webpack 4 Boilerplate is running!</h2>
+    <div id="root"></div>
     <script defer src="<%= htmlWebpackPlugin.files.chunks.app.entry %>"></script>
   </body>
 </html>

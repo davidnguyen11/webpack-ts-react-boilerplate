@@ -1,10 +1,5 @@
+import * as ReactDOM from 'react-dom';
 import * as React from 'react';
+import { Button } from './button';
 
-export class Button extends React.Component {
-  render() {
-    console.log('hello world');
-    return (
-      <button>hello</button>
-    )
-  }
-}
+ReactDOM.render(<Button />, document.getElementById('root'));
