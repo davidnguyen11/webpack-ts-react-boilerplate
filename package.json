@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config ./webpack/webpack.prod.js",
-    "dev": "webpack-dev-server --config ./webpack/webpack.dev.js",
-    "prod": "node ./server.js"
+    "start": "node ./server.js",
+    "dev": "NODE_ENV=development npm start",
+    "prod": "NODE_ENV=production npm start"
   },
   "keywords": [],
   "author": "",
@@ -25,17 +26,26 @@
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
     "postcss-preset-env": "^6.7.0",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
     "style-loader": "^1.0.0",
     "ts-loader": "^6.0.4",
     "typescript": "^3.6.2",
     "webpack": "^4.39.3",
     "webpack-cli": "^3.3.8",
-    "webpack-dev-server": "^3.8.0",
+    "webpack-dev-middleware": "^3.7.1",
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
 }

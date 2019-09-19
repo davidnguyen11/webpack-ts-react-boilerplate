@@ -1,5 +1,5 @@
 import * as ReactDOM from 'react-dom';
 import * as React from 'react';
-import { Button } from './button';
+import { Button } from './components/button';
 
-ReactDOM.render(<Button />, document.getElementById('root'));
+ReactDOM.render(<Button text="click me" />, document.getElementById('root'));

@@ -1,41 +1,22 @@
-# webpack typesript react boilerplate
+# webpack typescript react boilerplate
+
+The small kit for project with Webpack + TypeScript + React + Less
 
 ## Development
 
 **Watch**
-
-**yarn**
-
-```bash
-yarn install
-```
-
-```bash
-yarn start
-```
-
-**npm**
 
 ```bash
 npm i
 ```
 
 ```bash
-npm start
+npm run dev
 ```
+
+## Production
 
 **Build**
-
-**yarn**
-```bash
-yarn install
-```
-
-```bash
-yarn build
-```
-
-**npm**
 
 ```bash
 npm i
@@ -43,4 +24,5 @@ npm i
 
 ```bash
 npm run build
+npm run prod
 ```
