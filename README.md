@@ -1,5 +1,7 @@
 # webpack typescript react boilerplate
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/davidnguyen179/webpack-ts-react-boilerplate.svg)](https://greenkeeper.io/)
+
 The small kit for project with Webpack + TypeScript + React + Less
 
 ## Development
