@@ -76,9 +76,7 @@ module.exports = {
               sourceMap: true,
               modules: true,
               modules: {
-                mode: 'local',
                 localIdentName: '[local]--[hash:base64:5]',
-                context: path.resolve(__dirname, 'src')
               }
             }
           },
